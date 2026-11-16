@@ -28,7 +28,7 @@ public class hello{
 
         boolean isJavaFun=true;                      //print true or false
         System.out.println("Is Java Fun :"+isJavaFun);
-        
+       
 
     }
 }

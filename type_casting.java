@@ -13,10 +13,13 @@
 
 public class type_casting {
     public static void main(String[] args) {
-       int a=5;
-       double b = a;
+       int a=5;                            //int
+       double b = a;                       //double
        System.out.println("integer: "+a);
        System.out.println("double: "+b);
+
+       int c=(int)b;                       //double -> int
+       System.out.println("int: "+c);
 
     }
 }
